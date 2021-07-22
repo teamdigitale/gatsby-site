@@ -1,0 +1,15 @@
+homePage:
+  title: Identita Digitale
+  description: Richiedi SPID o CIE per accedere ai servizi pubblici online. SPID e CIE, l'identità digitale in Italia.
+privacyPage:
+  title: Informativa privacy - Identità Digitale
+  description: Informativa sulla gestione dei cookie del sito Identità Digitale
+noteLegaliPage:
+  title: Note legali - Identità Digitale
+  description: Informativa sulle note legali del sito Identità Digitale
+creditsPage:
+  title: Crediti - Identità Digitale
+  description: Elenco degli autori delle risorse visuali utilizzate per il sito Identità Digitale
+notFoundPage:
+  title: Pagina non trovata - Identità Digitale
+  description: Pagina non trovata

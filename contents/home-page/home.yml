@@ -1,0 +1,61 @@
+name: Identità Digitale
+headerTitle: Dipartimento per la trasformazione digitale
+heroStrategy:
+  category: Identità digitale
+  title: SPID e CIE
+  body: Richiedi il Sistema Pubblico di Identità Digitale (SPID) o la Carta di Identità Elettronica (CIE). L'identità digitale in Italia
+  ctaAriaLabelSpid: Scopri SPID (link esterno)
+  ctaAriaLabelCie: Scopri CIE (link esterno)
+  altImg: giovane donna guarda lo schermo di un computer
+heroBenefit:
+  category: Come funziona
+  title: L'accesso semplice e sicuro ai servizi digitali
+  body: Una credenziale unica per utilizzare i servizi online della Pubblica Amministrazione e dei privati aderenti
+  ctaAriaLabel: Vai al video (Link esterno su Youtube)
+  altImg: anziano su divano con tablet
+heroEnablement:
+  category: Kit di comunicazione
+  title: Promuovi l'identità digitale
+  body: Sei una Pubblica Amministrazione? Scopri i materiali e gli strumenti per le tue campagne di comunicazione
+  ctaAriaLabel: Scarica il Kit
+  altImg: Immagine decorativa, grafica con cassetta degli attrezzi
+  showMoreCustom: Scarica il kit
+heroNews:
+  category: Vantaggi
+  title: Vantaggi dell'identità digitale
+newsPreview:
+  - ariaLabel: Semplice
+    body: La attivi una volta e accedi a centinaia di servizi pubblici  online e a quelli dei privati aderenti
+    title: Semplice
+    icon: it-user
+  - ariaLabel: Veloce
+    body: "Facile da usare, la utilizzi in qualsiasi momento e da qualsiasi dispositivo: computer, tablet e smartphone"
+    title: Veloce
+    icon: it-check-circle
+  - ariaLabel: Sicura
+    body: L’accesso ai servizi è protetto, anche grazie a solide verifiche di sicurezza. I tuoi dati non sono profilati e la tua privacy è garantita
+    title: Sicura
+    icon: it-locked
+heroContribute:
+  category: Come contribuire
+  title: Partecipa al cambiamento, contribuisci a Identità Digitale!
+  body: Condividi informazioni, promuovi incontri sul tema cloud della PA nel tuo territorio e all’interno della tua organizzazione
+contributions:
+  - body: Entra in
+      <a href="https://forum.italia.it/" class="text-decoration-none font-weight-semibold" rel="noreferrer" target="_blank" aria-label="forum Italia (link esterno)">forum.italia.it</a>
+      e condividi le tue opinioni nella sezione <strong>Cloud e data center</strong>
+    icon: it-logo.svg
+    alt: Forum Italia logo
+    title: Forum
+  - body: Unisciti alla community di
+      <a href="https://slack.developers.italia.it/" class="text-decoration-none font-weight-semibold" rel="noreferrer" target="_blank" aria-label="Developers Italia su Slack (link esterno)">Developers Italia su Slack</a>
+      e raggiungi il canale <strong>#cloud</strong>
+    icon: slack-logo.svg
+    alt: Slack logo
+    title: Slack
+  - body: Proponi <em>issue</em>, modifiche e nuovi contenuti nei
+      <a href="https://github.com/italia" class="text-decoration-none font-weight-semibold" rel="noreferrer" target="_blank" aria-label="repository pubblici (link esterno)">repository pubblici</a>
+      che contengono codice e documentazione per lo sviluppo del cloud della PA
+    icon: github-logo.svg
+    alt: GitHub logo
+    title: GitHub
