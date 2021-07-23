@@ -1,25 +1,18 @@
-import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
-import { HeroCategory } from "../../components/hero/HeroCategory.js";
-import { HeroTitle } from "../../components/hero/HeroTitle.js";
-import { HeroBody } from "../../components/hero/HeroBody.js";
-import { HeroCtaContainer } from "../../components/hero/HeroCtaContainer.js";
-import { Cta } from "../../components/hero/Cta.js";
-import { HeroGraphic } from "../../components/hero/HeroGraphic.js";
-import { Hero } from "../../components/hero/Hero.js";
-import content from "../../../contents/home-page/home.yml";
-import links from "../../../contents/links.yml";
-import labels from "../../../contents/labels.yml";
+import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
+import { HeroCategory } from '../../components/hero/HeroCategory.js';
+import { HeroTitle } from '../../components/hero/HeroTitle.js';
+import { HeroBody } from '../../components/hero/HeroBody.js';
+import { HeroCtaContainer } from '../../components/hero/HeroCtaContainer.js';
+import { Cta } from '../../components/hero/Cta.js';
+import { HeroGraphic } from '../../components/hero/HeroGraphic.js';
+import { Hero } from '../../components/hero/Hero.js';
+import content from '../../../contents/home-page/home.yml';
+import links from '../../../contents/links.yml';
+import labels from '../../../contents/labels.yml';
 
 const {
-  heroEnablement: {
-    category,
-    title,
-    body,
-    ctaAriaLabel,
-    altImg,
-    showMoreCustom,
-  },
+  heroEnablement: { category, title, body, ctaAriaLabel, altImg, showMoreCustom },
 } = content;
 const {
   internalLinks: { enablement },
@@ -35,12 +28,7 @@ export const EnablementSection = () => (
           <HeroTitle title={title} className="text-white" />
           <HeroBody html={body} />
           <HeroCtaContainer>
-            <Cta
-              text={showMoreCustom}
-              linkTo={enablement.linkTo}
-              color="light"
-              aria-label={ctaAriaLabel}
-            />
+            <Cta text={showMoreCustom} linkTo={enablement.linkTo} color="light" aria-label={ctaAriaLabel} />
           </HeroCtaContainer>
         </div>
       </div>
@@ -50,7 +38,7 @@ export const EnablementSection = () => (
           alt={altImg}
           aria-label={altImg}
           placeholder="blurred"
-          formats={["auto", "webp", "avif"]}
+          formats={['auto', 'webp', 'avif']}
         />
       </HeroGraphic>
     </div>

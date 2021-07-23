@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "gatsby";
-import { createUseStyles } from "react-jss";
-import links from "../../contents/links.yml";
-import labels from "../../contents/labels.yml";
-import { ExternalLink } from "../components/ExternalLink.js";
+import React from 'react';
+import { Link } from 'gatsby';
+import { createUseStyles } from 'react-jss';
+import links from '../../contents/links.yml';
+import labels from '../../contents/labels.yml';
+import { ExternalLink } from '../components/ExternalLink.js';
 
 const {
   internalLinks: { privacy, credits, noteLegali },
@@ -14,25 +14,25 @@ const { footerA11y } = labels;
 
 const useStyle = createUseStyles({
   mainFooter: {
-    composes: "it-footer-main",
-    backgroundColor: "#004080",
+    composes: 'it-footer-main',
+    backgroundColor: '#004080',
   },
   slimFooter: {
-    composes: "it-footer-small-prints py-4",
-    backgroundColor: "#01254C",
-    "& a": {
-      color: "#27D1D6",
+    composes: 'it-footer-small-prints py-4',
+    backgroundColor: '#01254C',
+    '& a': {
+      color: '#27D1D6',
     },
   },
   footerLogo: {
-    height: "2.5rem",
+    height: '2.5rem',
   },
   logoSeparator: {
-    composes: "mx-2 d-none d-md-block",
+    composes: 'mx-2 d-none d-md-block',
   },
-  "@media (max-width: 300px)": {
+  '@media (max-width: 300px)': {
     footerLogo: {
-      height: "2rem",
+      height: '2rem',
     },
   },
 });
@@ -44,18 +44,12 @@ const SlimFooter = () => {
       <div className="container">
         <ul className="list-inline link-list mb-0 text-center text-md-left">
           <li className="list-inline-item mr-0 mr-md-5">
-            <Link
-              to={noteLegali.linkTo}
-              className="list-item mid-footer-link mx-4 mx-md-0"
-            >
+            <Link to={noteLegali.linkTo} className="list-item mid-footer-link mx-4 mx-md-0">
               {noteLegali.label}
             </Link>
           </li>
           <li className="list-inline-item mr-0 mr-md-5">
-            <Link
-              to={privacy.linkTo}
-              className="list-item mid-footer-link mx-4 mx-md-0"
-            >
+            <Link to={privacy.linkTo} className="list-item mid-footer-link mx-4 mx-md-0">
               {privacy.label}
             </Link>
           </li>
@@ -88,17 +82,12 @@ const MainFooter = () => {
     <div className={classes.mainFooter}>
       <div className="container text-center text-md-left">
         <div className="row">
-          <div className="col-12 d-flex flex-column flex-md-row px-5 pt-4 pb-0">
-            Progetto di
-          </div>
+          <div className="col-12 d-flex flex-column flex-md-row px-5 pt-4 pb-0">Progetto di</div>
         </div>
         <div className="row">
           <div className="col-12 d-flex flex-column flex-md-row px-5 pb-4 pt-3">
             <div className="py-2">
-              <ExternalLink
-                linkTo={dipartimento.linkTo}
-                ariaLabel={dipartimento.ariaLabel}
-              >
+              <ExternalLink linkTo={dipartimento.linkTo} ariaLabel={dipartimento.ariaLabel}>
                 <img
                   className={`${classes.footerLogo} pr-2`}
                   src="/assets/repubblica-logo.svg"
@@ -116,10 +105,7 @@ const MainFooter = () => {
         </div>
         <div className="row">
           <div className="col-12 d-flex flex-column flex-md-row px-5 pt-0 pb-4">
-            <div
-              className="small"
-              dangerouslySetInnerHTML={{ __html: footerA11y }}
-            ></div>
+            <div className="small" dangerouslySetInnerHTML={{ __html: footerA11y }}></div>
           </div>
         </div>
       </div>

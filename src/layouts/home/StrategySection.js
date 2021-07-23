@@ -1,28 +1,21 @@
-import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
-import { createUseStyles } from "react-jss";
+import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
+import { createUseStyles } from 'react-jss';
 
-import { HeroCategory } from "../../components/hero/HeroCategory.js";
-import { HeroTitle } from "../../components/hero/HeroTitle.js";
-import { HeroBody } from "../../components/hero/HeroBody.js";
-import { HeroCtaContainer } from "../../components/hero/HeroCtaContainer.js";
-import { Cta } from "../../components/hero/Cta.js";
-import { HeroGraphic } from "../../components/hero/HeroGraphic.js";
-import { Hero } from "../../components/hero/Hero.js";
-import content from "../../../contents/home-page/home.yml";
-import links from "../../../contents/links.yml";
-import labels from "../../../contents/labels.yml";
-import { ExternalLink } from "../../components/ExternalLink.js";
+import { HeroCategory } from '../../components/hero/HeroCategory.js';
+import { HeroTitle } from '../../components/hero/HeroTitle.js';
+import { HeroBody } from '../../components/hero/HeroBody.js';
+import { HeroCtaContainer } from '../../components/hero/HeroCtaContainer.js';
+import { Cta } from '../../components/hero/Cta.js';
+import { HeroGraphic } from '../../components/hero/HeroGraphic.js';
+import { Hero } from '../../components/hero/Hero.js';
+import content from '../../../contents/home-page/home.yml';
+import links from '../../../contents/links.yml';
+import labels from '../../../contents/labels.yml';
+import { ExternalLink } from '../../components/ExternalLink.js';
 
 const {
-  heroStrategy: {
-    category,
-    title,
-    body,
-    ctaAriaLabelSpid,
-    ctaAriaLabelCie,
-    altImg,
-  },
+  heroStrategy: { category, title, body, ctaAriaLabelSpid, ctaAriaLabelCie, altImg },
 } = content;
 const {
   internalLinks: { strategy: strategyHero },
@@ -36,25 +29,25 @@ const { showMore, showSPID, showCIE } = labels;
 const useStyles = createUseStyles({
   btnPrimaryLight: {
     // eslint-disable-next-line sonarjs/no-duplicate-string
-    backgroundColor: "var(--white)",
-    color: "var(--primary)",
+    backgroundColor: 'var(--white)',
+    color: 'var(--primary)',
   },
   verticalDelimiter: {
-    composes: "d-none d-xl-block mr-4",
-    borderLeft: "1px solid #E6E9F2",
+    composes: 'd-none d-xl-block mr-4',
+    borderLeft: '1px solid #E6E9F2',
   },
   whiteHighContrast: {
-    color: "var(--white)",
-    "&:hover": {
+    color: 'var(--white)',
+    '&:hover': {
       // Needed to grant high contrast for a11y
-      color: ["var(--white)", "!important"],
+      color: ['var(--white)', '!important'],
     },
   },
   // This is a dirty hack to avoid pa11y issues with contrast ratio on noscript text content
   a11yHighContrast: {
-    "@global": {
+    '@global': {
       noscript: {
-        color: "white",
+        color: 'white',
       },
     },
   },
@@ -94,7 +87,7 @@ export const StrategySection = () => {
             alt={altImg}
             aria-label={altImg}
             placeholder="blurred"
-            formats={["auto", "webp", "avif"]}
+            formats={['auto', 'webp', 'avif']}
           />
         </HeroGraphic>
       </div>

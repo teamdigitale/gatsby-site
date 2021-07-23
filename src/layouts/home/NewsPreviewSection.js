@@ -1,14 +1,14 @@
-import React from "react";
-import { Card, CardBody, Icon } from "design-react-kit";
-import { createUseStyles } from "react-jss";
-import { MobileSwiper } from "../../components/MobileSwiper.js";
-import { Hero } from "../../components/hero/Hero.js";
-import content from "../../../contents/home-page/home.yml";
-import labels from "../../../contents/labels.yml";
-import { ExternalLink } from "../../components/ExternalLink.js";
-import { HeroCategory } from "../../components/hero/HeroCategory.js";
-import { HeroTitle } from "../../components/hero/HeroTitle.js";
-import { HeroBody } from "../../components/hero/HeroBody.js";
+import React from 'react';
+import { Card, CardBody, Icon } from 'design-react-kit';
+import { createUseStyles } from 'react-jss';
+import { MobileSwiper } from '../../components/MobileSwiper.js';
+import { Hero } from '../../components/hero/Hero.js';
+import content from '../../../contents/home-page/home.yml';
+import labels from '../../../contents/labels.yml';
+import { ExternalLink } from '../../components/ExternalLink.js';
+import { HeroCategory } from '../../components/hero/HeroCategory.js';
+import { HeroTitle } from '../../components/hero/HeroTitle.js';
+import { HeroBody } from '../../components/hero/HeroBody.js';
 
 const {
   heroNews: { category, title },
@@ -19,11 +19,11 @@ const { ariaLabel } = labels;
 
 const useStyle = createUseStyles({
   category: {
-    fontSize: "0.875rem",
+    fontSize: '0.875rem',
   },
-  "@media (min-width: 992px)": {
+  '@media (min-width: 992px)': {
     category: {
-      fontSize: "0.78rem",
+      fontSize: '0.78rem',
     },
   },
 });
