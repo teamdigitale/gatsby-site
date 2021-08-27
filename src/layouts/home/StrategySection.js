@@ -83,7 +83,7 @@ export const StrategySection = () => {
         </div>
         <HeroGraphic className="col-lg-6">
           <StaticImage
-            src="../../images/section01.png"
+            src="../../images/section01.jpg"
             alt={altImg}
             aria-label={altImg}
             placeholder="blurred"

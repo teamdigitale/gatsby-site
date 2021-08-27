@@ -26,7 +26,7 @@ export const BenefitSection = () => (
     <div id="comefunziona" className="row align-items-center px-lg-5">
       <HeroGraphic className="col-lg-6 p-0">
         <StaticImage
-          src="../../images/section02.png"
+          src="../../images/section02.jpg"
           alt={altImg}
           aria-label={altImg}
           placeholder="blurred"

@@ -1,15 +1,15 @@
 homePage:
-  title: Identita Digitale
-  description: Richiedi SPID o CIE per accedere ai servizi pubblici online. SPID e CIE, l'identità digitale in Italia.
+  title: CHANGEME Site name
+  description: CHANGEME Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
 privacyPage:
-  title: Informativa privacy - Identità Digitale
+  title: Informativa privacy - CHANGEME Site name
   description: Informativa sulla gestione dei cookie del sito Identità Digitale
 noteLegaliPage:
-  title: Note legali - Identità Digitale
-  description: Informativa sulle note legali del sito Identità Digitale
+  title: Note legali - CHANGEME Site name
+  description: Informativa sulle note legali del sito CHANGEME
 creditsPage:
-  title: Crediti - Identità Digitale
-  description: Elenco degli autori delle risorse visuali utilizzate per il sito Identità Digitale
+  title: Crediti - CHANGEME Site name
+  description: Elenco degli autori delle risorse visuali utilizzate per il sito CHANGEME
 notFoundPage:
-  title: Pagina non trovata - Identità Digitale
+  title: Pagina non trovata - CHANGEME Site name
   description: Pagina non trovata

@@ -1,6 +1,6 @@
 # Contributing instructions
 
-Thank you for considering contributing to the identita digitale site repository!
+Thank you for considering contributing!
 
 ## Issues
 

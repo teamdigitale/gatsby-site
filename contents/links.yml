@@ -1,16 +1,16 @@
 internalLinks:
   strategy:
     linkTo: "/#identitadigitale"
-    label: Identità digitale
+    label: CHANGEME Menu 1
     linkTop: "/#mainTop"
   enablement:
     homeLinkTo: "/#comefunziona"
-    linkTo: "https://www.youtube.com/watch?v=G-FMWZK4ZeM"
-    label: Come funziona
+    linkTo: "https://www.youtube.com/CHANGEME"
+    label: CHANGEME Menu 2
     linkTop: "#mainTop"
   services:
     linkTo: "/#vantaggi"
-    label: Vantaggi
+    label: CHANGEME Menu 3
     linkTop: "#mainTop"
   catalogue:
     linkTo: "/#perlapa"
@@ -66,5 +66,5 @@ externalLinks:
     ariaLabel: "Agenzia per l'Italia Digitale (link esterno)"
   a11y:
     label: Dichiarazione di accessibilità
-    linkTo: https://form.agid.gov.it/view/db8b2168-fdc4-45a5-8cf5-285ccdcfc485
+    linkTo: https://form.agid.gov.it/CHANGEME
     ariaLabel: "Dichiarazione di accessibilità (link esterno)"

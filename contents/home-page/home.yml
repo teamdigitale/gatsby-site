@@ -1,40 +1,33 @@
 name: Identità Digitale
 headerTitle: Dipartimento per la trasformazione digitale
 heroStrategy:
-  category: Identità digitale
-  title: SPID e CIE
-  body: Richiedi il Sistema Pubblico di Identità Digitale (SPID) o la Carta di Identità Elettronica (CIE). L'identità digitale in Italia
+  category: CHANGEME Hero Category
+  title: CHANGEME Hero Title
+  body: CHANGEME Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
   ctaAriaLabelSpid: Scopri SPID (link esterno)
   ctaAriaLabelCie: Scopri CIE (link esterno)
   altImg: giovane donna guarda lo schermo di un computer
 heroBenefit:
-  category: Come funziona
-  title: L'accesso semplice e sicuro ai servizi digitali
-  body: Una credenziale unica per utilizzare i servizi online della Pubblica Amministrazione e dei privati aderenti
+  category: CHANGEME Hero Category 2
+  title: CHANGEME Hero Title 2
+  body: CHANGEME Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
   ctaAriaLabel: Vai al video (Link esterno su Youtube)
   altImg: anziano su divano con tablet
-heroEnablement:
-  category: Kit di comunicazione
-  title: Promuovi l'identità digitale
-  body: Sei una Pubblica Amministrazione? Scopri i materiali e gli strumenti per le tue campagne di comunicazione
-  ctaAriaLabel: Scarica il Kit
-  altImg: Immagine decorativa, grafica con cassetta degli attrezzi
-  showMoreCustom: Scarica il kit
 heroNews:
-  category: Vantaggi
-  title: Vantaggi dell'identità digitale
+  category: CHANGEME Category features
+  title: CHANGEME Features
 newsPreview:
   - ariaLabel: Semplice
-    body: La attivi una volta e accedi a centinaia di servizi pubblici  online e a quelli dei privati aderenti
-    title: Semplice
+    body: CHANGEME Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
+    title: CHANGEME One
     icon: it-user
   - ariaLabel: Veloce
-    body: "Facile da usare, la utilizzi in qualsiasi momento e da qualsiasi dispositivo: computer, tablet e smartphone"
-    title: Veloce
+    body: CHANGEME Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
+    title: CHANGEME Two
     icon: it-check-circle
   - ariaLabel: Sicura
-    body: L’accesso ai servizi è protetto, anche grazie a solide verifiche di sicurezza. I tuoi dati non sono profilati e la tua privacy è garantita
-    title: Sicura
+    body: CHANGEME Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa
+    title: CHANGEME Three
     icon: it-locked
 heroContribute:
   category: Come contribuire
