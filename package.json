@@ -1,9 +1,9 @@
 {
-  "name": "identitadigitale",
+  "name": "CHANGEME",
   "version": "1.0.0",
-  "description": "Sito https://identitadigitale.gov.it/",
+  "description": "Sito https://CHANGEME/",
   "main": "src/pages/index.js",
-  "repository": "git@github.com:teamdigitale/identitadigitale.gov.it.git",
+  "repository": "git@github.com:CHANGEME/CHANGEME.git",
   "license": "BSD-3-Clause",
   "scripts": {
     "build": "gatsby build",

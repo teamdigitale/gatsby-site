@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    name: "Identità Digitale",
-    hostname: "identitadigitale.gov.it",
-    siteUrl: "https://identitadigitale.gov.it/",
+    name: "CHANGEME",
+    hostname: "CHANGEME.example.org",
+    siteUrl: "https://CHANGEME/",
   },
   plugins: [
     "gatsby-plugin-sitemap",
@@ -38,9 +38,9 @@ module.exports = {
     {
       resolve: "gatsby-plugin-matomo",
       options: {
-        siteId: "zm6pM8j3nV",
+        siteId: "CHANGEME",
         matomoUrl: `https://ingestion.webanalytics.italia.it/`,
-        siteUrl: "https://identitadigitale.gov.it",
+        siteUrl: "https://CHANGEME",
         matomoPhpScript: "matomo.php",
         matomoJsScript: "matomo.js",
         localScript: "/assets/matomo.js",
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "G-Q21N3HDKYT",
+        id: "CHANGEME",
 
         // Include GTM in development.
         //
