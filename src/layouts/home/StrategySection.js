@@ -86,8 +86,6 @@ export const StrategySection = () => {
             src="../../images/section01.jpg"
             alt={altImg}
             aria-label={altImg}
-            placeholder="blurred"
-            formats={['auto', 'webp', 'avif']}
           />
         </HeroGraphic>
       </div>

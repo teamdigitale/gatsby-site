@@ -33,8 +33,16 @@ module.exports = {
       },
     },
     "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-sharp",
+      options: {
+        defaults: {
+          formats: ["auto", "webp", "avif"],
+          placeholder: "blurred",
+        }
+      },
+    },
     {
       resolve: "gatsby-plugin-matomo",
       options: {
