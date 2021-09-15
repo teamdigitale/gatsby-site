@@ -57,7 +57,7 @@ export const StrategySection = () => {
   const classes = useStyles();
   return (
     <Hero>
-      <div id="identitadigitale" className="row align-items-center px-lg-5">
+      <div id="strategy" className="row align-items-center px-lg-5">
         <div className="col-lg-6 p-0 mt-3 mt-lg-0 pr-lg-5">
           <div className="text-center text-lg-left">
             <HeroCategory title={category} />

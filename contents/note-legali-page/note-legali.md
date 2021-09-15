@@ -1,6 +1,6 @@
 # Note legali
 
-La Presidenza del Consiglio dei Ministri - Dipartimento per la Trasformazione Digitale, con sede in Largo Pietro di Brazzà 86, 00186 Roma, ha realizzato questo sito con lo scopo di diffondere le informazioni utili ai cittadini relative all’identità digitale e alle soluzioni del Sistema Pubblico di Identità Digitale (SPID) e della Carta di Identità Elettronica (CIE).
+La Presidenza del Consiglio dei Ministri - Dipartimento per la Trasformazione Digitale, con sede in Largo Pietro di Brazzà 86, 00186 Roma, ha realizzato questo sito con lo scopo di CHANGEME.
 
 **Licenza dei contenuti**  
 In applicazione del principio open by default ai sensi dell’articolo 52 del decreto legislativo 7 marzo 2005, n. 82 (CAD) e salvo dove diversamente specificato (compresi i contenuti incorporati di terzi), i dati, i documenti e le informazioni pubblicati sul sito sono rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.it){class="text-decoration-none font-weight-semibold", rel='noreferrer', target='\_blank', aria-label='https://creativecommons.org/licenses/by/4.0/legalcode.it (link esterno)'} Gli utenti sono quindi liberi di condividere (riprodurre, distribuire, comunicare al pubblico, esporre in pubblico, rappresentare, eseguire e recitare questo materiale con qualsiasi mezzo e formato) e modificare (trasformare il materiale e utilizzarlo per opere derivate) per qualsiasi fine, anche commerciale con il solo onere di attribuzione, senza apporre restrizioni aggiuntive.
