@@ -25,7 +25,6 @@
     "gatsby-plugin-google-tagmanager": "3.8.0",
     "gatsby-plugin-image": "^1.2.1",
     "gatsby-plugin-matomo": "0.10.0",
-    "gatsby-plugin-no-index": "1.0.2",
     "luxon": "^1.26.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
