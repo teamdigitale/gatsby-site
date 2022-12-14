@@ -12,7 +12,7 @@
     "deploy": "gh-pages -u 'Deploy Bot <no-reply@teamdigitale.governo.it>' -d public",
     "lint": "eslint src --ext .js",
     "html-proofer": "docker-compose up --build",
-    "pa11y": "sh pa11y.sh",
+    "pa11y": "./pa11y.sh",
     "serve": "gatsby serve"
   },
   "dependencies": {
