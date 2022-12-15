@@ -14,7 +14,6 @@ import {
 import { createUseStyles } from 'react-jss';
 import links from '../../contents/links.yml';
 import labels from '../../contents/labels.yml';
-import content from '../../contents/home-page/home.yml';
 import { HeaderNav } from '../components/HeaderNav.js';
 import { ExternalLink } from '../components/ExternalLink.js';
 
@@ -60,7 +59,6 @@ const BrandSlimHeader = () => (
 );
 
 const SlimHeader = () => {
-  const [isOpen, toggleDropdown] = useState(false);
   const classes = useStyle();
   return (
     <HeaderReactKit type="slim" theme="dark">
@@ -72,7 +70,7 @@ const SlimHeader = () => {
         </HeaderBrand>
         <HeaderLinkZone aria-label={ariaLabel.slimMenu}>
           <div className={classes.navToggler}></div>
-          <Collapse isOpen={isOpen} header>
+          <Collapse isOpen={false} header>
             <div className="link-list-wrapper"></div>
           </Collapse>
         </HeaderLinkZone>
@@ -104,7 +102,7 @@ const CenterHeader = () => {
   );
 };
 
-const NavHeader = (props) => {
+const NavHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
   const closeMenu = () => setIsOpen(false);
   const toogleMenu = () => setIsOpen(!isOpen);
@@ -155,20 +153,6 @@ const NavHeader = (props) => {
                 </Link>
               </NavItem>
             </Nav>
-            {/* <Nav navbar>
-              <NavItem>
-                <Link
-                  to={internalLinks.catalogue.linkTo}
-                  className="nav-link"
-                  activeClassName="active"
-                  onClick={closeMenu}
-                >
-                  <span className="font-weight-semibold">
-                    {internalLinks.catalogue.label}
-                  </span>
-                </Link>
-              </NavItem>
-            </Nav> */}
           </div>
         </HeaderNav>
       </HeaderContent>
@@ -176,13 +160,13 @@ const NavHeader = (props) => {
   );
 };
 
-export const Header = (props) => (
+export const Header = () => (
   <header id="mainTop">
     <Headers>
       <SlimHeader />
       <div className="it-nav-wrapper">
         <CenterHeader />
-        <NavHeader showKit={props.showKit} />
+        <NavHeader />
       </div>
     </Headers>
   </header>
