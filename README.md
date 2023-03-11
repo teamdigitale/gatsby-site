@@ -5,12 +5,12 @@ The website is built using the [Gatsby](https://www.gatsbyjs.com/) framework.
 ## Requirements
 
 - [Node.js](https://nodejs.org/it/) runtime
-- [Yarn](https://yarnpkg.com/) package manager
+- [npm](https://npmjs.com/) package manager
 
-After you have installed yarn, the following command is necessary to install dependencies:
+After you have installed npm, the following command is necessary to install dependencies:
 
 ```
-yarn
+npm
 ```
 
 ## Development
@@ -18,7 +18,7 @@ yarn
 To start development or local testing of the website, you need to execute the following command:
 
 ```
-yarn develop
+npm run develop
 ```
 
 At the end of the build process, the website is available at http://localhost:8000/.
